@@ -1,0 +1,10 @@
+body{
+  
+}
+.grid {
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 600px; 
+}

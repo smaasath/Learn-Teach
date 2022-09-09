@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
       Swal.fire({
         position: 'center',
         icon: 'success',
-        title: 'You Cicked Correct Image!',
+        title: 'You Clicked Correct Image!',
         showConfirmButton: false,
         timer: 1500
       })
@@ -308,17 +308,12 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       
       Swal.fire({
-        title: '<strong></strong>',
-        imageUrl: 'cong.jpg',
-        imageHeight: 200,
-        html:
-          '<b>You Won the Game!!!!</b>',
-          showCloseButton: true,
-         
-         
-          
-          
-        })
+        position: 'center',
+        icon: 'error',
+        title: 'You C;icked InCorrect Image!',
+        showConfirmButton: false,
+        timer: 1500
+      })
     }
     
     cardsChosen = []

@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
       Swal.fire({
         position: 'center',
         icon: 'error',
-        title: 'You C;icked InCorrect Image!',
+        title: 'You Clicked InCorrect Image!',
         showConfirmButton: false,
         timer: 1500
       })
